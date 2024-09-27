@@ -109,7 +109,7 @@ class Response extends Base
      */
     public function withXframe()
     {
-        $this->withHeader('X-Frame-Options', 'DENY');
+        $this->withHeader('X-Frame-Options', '');
         return $this;
     }
 
